@@ -19,9 +19,9 @@ test.describe('Navigation', () => {
 
   test('navigates to the Stepper page', async ({ page }) => {
     await page.getByRole('link', { name: 'Stepper' }).click();
-    await page.waitForLoadState('networkidle');
+    await page.waitForLoadState('load');
 
-    await expect(page.getByRole('button', { name: 'Next' })).toBeVisible();
+    await expect(page.getByRole('tabpanel', { name: 'Fill out your name' }).getByRole('button', { name: 'Next' })).toBeVisible();
   });
 
   test('navigates back to Welcome from the Form page via nav link', async ({ page }) => {

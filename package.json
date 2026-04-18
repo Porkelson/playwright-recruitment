@@ -12,6 +12,7 @@
     "test:ui": "playwright test --ui",
     "test:debug": "playwright test --debug",
     "test:report": "playwright show-report",
+    "test:ci": "playwright test --reporter=html,list",
     "test:chromium": "playwright test --project=chromium",
     "test:firefox": "playwright test --project=firefox"
   },

@@ -1,6 +1,6 @@
 # E2E Tests - Angular QA Recruitment App
 
-![Playwright Tests](https://github.com/Porkelson/e2e-recruitment/actions/workflows/playwright.yml/badge.svg)
+![Playwright Tests](https://github.com/Porkelson/playwright-recruitment/actions/workflows/playwright.yml/badge.svg)
 
 Playwright-based end-to-end test suite for [angular-qa-recruitment-app.netlify.app](https://angular-qa-recruitment-app.netlify.app/), written in TypeScript.
 
